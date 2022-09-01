@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    background-color: orange;
+    display: block;
+
+}
+div > .espaco{
+    width: 100%;
+}
+div > .astronauta{
+    width: 40%;
+    position: absolute;
+}
