@@ -4,15 +4,17 @@ body{
     padding: 0px;
     margin: 0px;
 }
-div{
-    background-color: orange;
-    display: block;
 
+div{
+    position: relative;
 }
+
+div > .astronauta{
+    position: absolute;
+    width: 40%;
+    transform: translate(70%, 10%)
+}
+
 div > .espaco{
     width: 100%;
-}
-div > .astronauta{
-    width: 40%;
-    position: absolute;
 }
